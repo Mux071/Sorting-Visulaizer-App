@@ -50,4 +50,3 @@ npm run start
 
 <h2>Example Terminal Image</h2>
 <p>Here’s an image of the commands running in the terminal:</p>
-<img src="./assets/terminal-screenshot.png" alt="Terminal Commands" />
