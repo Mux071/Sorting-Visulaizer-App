@@ -9,7 +9,7 @@ const QuickSort = () => {
 
   const handleSort = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/api/sort/quick', { array });
+      const response = await axios.post('https://sorting-visulaizer-app.onrender.com/api/sort/quick', { array });
       setSortedArray(response.data);
     } catch (error) {
       console.error('Error sorting array:', error);
